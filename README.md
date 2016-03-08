@@ -1,10 +1,10 @@
 # Gerenciamento de Creche
-***
+ 
 Esse sistema terá como objetivo a gestão dos dados diários dos alunos, o monitoramento dos mesmos 
 e possibilitar que um boleto seja gerado pelo site.
  
 # Problemas
-***
+ 
 - Atualmente todos os dados referente aos alunos estão salvos em planilhas salvas no computador, 
 em agendas dos próprios alunos e folhas de oficio. A idéia inicial é melhorar essa gestão desses dados.
 
@@ -21,5 +21,5 @@ pelos pais ou pelo gestor do site.
 Os pais podem monitorar seus filhos em tempo real.
 
 # Solução
-***
+ 
  
