@@ -1,7 +1,7 @@
 # Sobre o Projeto
 
 Aplicação web que terá como finalidade o gerenciamento de dados, 
-video chat, monitoramento online em tempo real, histórico de atividades, emissão de boletos e projetos realizados ao longo do ano da escola de educação infantil recanto do Jardim. 
+video chat, monitoramento online em tempo real, histórico de atividades, emissão de boletos e projetos realizados ao longo do ano da escola de educação infantil Recanto do Jardim. 
 Este projeto terá código opensource e o objetivo será construir uma ferramenta completa e melhor que todas disponíveis no mercado e que todos os módulos da aplicação serão gratuitos apenas para escolas pública e que 50% da rentabilidade será destinado para abrir novas creches pelo Brasil com modelo de franquia.
 
 As tecnologia aplicadas no projeto irão rodar na plataforma Node.js e o banco de dados com NoSQL MongoDB, ou seja, todo o código de back end será inscrito em javascript e no front end html/css/javascript. 
