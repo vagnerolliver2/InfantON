@@ -1,7 +1,7 @@
-# Sobre o Projeto
+# Sobre o Projeto InfantON
 
-Aplicação web que terá como finalidade o gerenciamento de dados, 
-video chat, monitoramento online em tempo real, histórico de atividades, emissão de boletos e projetos realizados ao longo do ano da escola de educação infantil Recanto do Jardim. 
+Sistema Online para escolas de educação infantil que terá como finalidade o gerenciamento de dados, video chat, monitoramento online em tempo real, histórico de atividades(agenda pública), emissão de boletos e projetos realizados ao longo do ano da escola de educação infantil Recanto do Jardim.
+
 Este projeto terá código opensource e o objetivo será construir uma ferramenta completa e melhor que todas disponíveis no mercado e que todos os módulos da aplicação serão gratuitos apenas para escolas pública e que 50% da rentabilidade será destinado para abrir novas creches pelo Brasil com modelo de franquia.
 
 As tecnologia aplicadas no projeto irão rodar na plataforma Node.js e o banco de dados com NoSQL MongoDB, ou seja, todo o código de back end será inscrito em javascript e no front end html/css/javascript. 
@@ -16,8 +16,8 @@ Em NoSQL documentos são objetos representados entre chaves:
     } 
  }.
 
-Como padrão de arquitetura vou seguir modelo MVC com framework express. Para o monitoramento online usarei a tecnologia de webrtc para vídeo chat. Para a camada de front end usarei o gulp como automatizador de tarefa executando e organizando o código scss e gerar um arquivo css compilado e minificado,
-além de usar outras bibliotecas para auxiliar na construção do html, tais como jeet.js, compass etc.. o uso dessas bibliotecas é para organizar o código e criar componentes html além de melhorar performace do código de carregamento no browser e aumentar SEO do site.
+Como padrão de arquitetura vou seguir modelo MVC com framework express. Para o monitoramento online usarei a tecnologia de webrtc para vídeo chat. Para a camada de front end usarei o gulp como automatizador de tarefa executando e organizando o código sass e gerar um arquivo css compilado e minificado,
+além de usar outras bibliotecas para auxiliar na construção e estilização do html, tais como jeet.js, compass etc.. o uso dessas bibliotecas é para organizar o código e criar componentes html além de melhorar performace do código de carregamento no browser e aumentar SEO do site.
 
 ***
 
