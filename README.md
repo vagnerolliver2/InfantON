@@ -43,63 +43,16 @@ pelos pais ou pelo gestor do site.
 
 
 # Requisitos
-
-1 - Requisitos Funcionais:
-
-	- O sistema deve ter um arquivo .txt com histórico de logs;
-	- O sistema deve usar a biblioteca do passaport para o sistema de login.
-		 Tratamento de validação campos email e senha; 
-		 A senha deve ser preenchida com no mínimo 5 caracteres, caso um desses campos não for enviado para api de login o sistema deve retornar mensagens de erros, especificando qual(is) campo(s) não foram validados.
-	-  Formulário para /recuperar_senha com o campo de email.
-	   Resposta de erro da api, caso o email não exista ou resposta de  sucesso, retornando “sua senha foi enviada para seu email”;
-
-   - O usuário logado pode editar e atualizar os campos email e senha;
-
-   - O sistema deve possuir 3 níveis de permissões: as de aluno, de professor e    administrador que serão importantes para restringir alguns acessos e elementos de front end;
-
-
- Tecnologia webrtc para acessar as webcam instaladas na escola e acompanhar ao vivo as atividades dentro da escola;
-
-
- O Sistema deve permitir que o responsável do aluno faça uma vídeo conferencia;
-  
- Todo código css vai ser compilado com sass.
-
-Operações de CRUD:
-
-
-
-
-Validação nos schemas, sempre que for enviado algum tipo de dado diferente ou não for enviado um campo obrigatório etc... a api deve retornar um objeto de erro.
  
-Módulo para gerenciar as Pessoas cadastradas no sistema:
-Quando uma pessoa é cadastrada o sistema deve solicitar se é do tipo ALUNO ou FUNCIONÁRIO. Se for aluno, o sistema vai solicitar dados do responsável, turma, e demais campos importantes para a ficha de matricula, se o usuário for do tipo funcionário o sistema deve solicitar dados profissionais.
+ 1 ­ Requisitos Funcionais:   
+ 
+ - O sistema deve ter um arquivo .txt com histórico de logs;  
 
+ - O sistema deve usar a biblioteca do passaport para o sistema de login.  
 
-É obrigatório cadastrar a data que o aluno de fato vai iniciar as atividades, o sistema vai automatizar o campo status_matrícula assim que a data atual for igual a data do inicio das atividades, esse dado será importante para manter um controle de caixa da escola, essa verificação pode ser disparada sempre que sistema realizar uma busca por aluno e o status ainda for inativo;
-
-
-Módulo de Pagamento:
-O sistema deve integrar com o pagseguro(ver na documentação) quais procedimentos;
-
-
-O módulo de pagamento vai precisar carregar os dados do Aluno e valor da mensalidade;
-
-
-Campo status_pagamento deve ficar true assim que o pagamento for confirmado pelo pagseguro;
-
-Módulo da Agenda Online:
-Cadastrar dados da agenda com os campos data, id, título, descrição, foto e  id_anotação_referente, através deste último campo será possível  organizar o histórico de conversa das anotações;
-
-
-Além dos campos acima as anotações vão precisar  cadastrar id_do_aluno e id_professor(se necessário);  
-
-
-Módulo do Calendário Escolar:
-Aplicação vai permitir um histórico de eventos da escola durante ano- letivo. Os campos são: id, titulo, descrição, galeria de fotos, id_responsavel;
-
-
-Módulo das turmas
-O sistema vai possuir uma Collection para armazenar os dados da turma, nome_da_turma, turno, id_professora e valor;
+ 1.2 Item 
+ * Item 1
+ * Item 1
+ * Item 1
 
  
