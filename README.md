@@ -50,9 +50,13 @@ pelos pais ou pelo gestor do site.
 
  - O sistema deve usar a biblioteca do passaport para o sistema de login.  
 
+-
  1.2 Item 
+ * Item 1 - Teste - Teste 
  * Item 1
- * Item 1
+ - Teste 1 
+ - Teste 1 
+ - Teste 1 
+ - Teste 1 
  * Item 1
 
- 
