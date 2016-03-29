@@ -46,15 +46,24 @@ pelos pais ou pelo gestor do site.
  
  1 ­ Requisitos Funcionais:   
  
- ➔ O sistema deve ter um arquivo .txt com histórico de logs;  
+- O sistema deve ter um arquivo .txt com histórico de logs;  
 
- ➔ O sistema deve usar a biblioteca do passaport para o sistema de login.  
- 	 * Tratamento de validação campos email e senha; A senha deve ser preenchida  com no mínimo 5 caracteres, caso um desses campos não for enviado para api  de login o sistema deve retornar mensagens de erros, especificando qual(is)  campo(s) não foram validados 
- 	 * Formulário para /recuperar_senha com o campo de email. 
- 	 	 - Resposta de erro da api, caso o email não exista ou resposta de  sucesso, retornando “sua senha foi enviada para seu email”
-  ➔ O usuário logado pode editar e atualizar os campos email e senha;
-  ➔ O sistema deve possuir 3 níveis de permissões: as de aluno, de professor e  administrador que serão importantes para restringir alguns acessos e elementos de  front end;
-  ➔ Tecnologia webrtc para acessar as webcam instaladas na escola e acompanhar ao  vivo as atividades dentro da escola; 
-  ➔ O Sistema deve permitir que o responsável do aluno faça uma vídeo conferencia; 
-  ➔ Todo código css vai ser compilado com sass
-  ➔ Operações de CRUD: 
+- O sistema deve usar a biblioteca do passaport para o sistema de login.  
+
+- Tratamento de validação campos email e senha; A senha deve ser preenchida  com no mínimo 5 caracteres, caso um desses campos não for enviado para api  de login o sistema deve retornar mensagens de erros, especificando qual(is)  campo(s) não foram validados 
+ 
+ 	  - Formulário para /recuperar_senha com o campo de email. 
+ 	 	  
+ 	 	  Resposta de erro da api, caso o email não exista ou resposta de  sucesso, retornando “sua senha foi enviada para seu email”
+ 
+- O usuário logado pode editar e atualizar os campos email e senha;
+
+- O sistema deve possuir 3 níveis de permissões: as de aluno, de professor e  administrador que serão importantes para restringir alguns acessos e elementos de  front end;
+
+- Tecnologia webrtc para acessar as webcam instaladas na escola e acompanhar ao  vivo as atividades dentro da escola; 
+
+- O Sistema deve permitir que o responsável do aluno faça uma vídeo conferencia; 
+
+- Todo código css vai ser compilado com sass
+
+- Operações de CRUD: 
