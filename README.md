@@ -44,7 +44,7 @@ pelos pais ou pelo gestor do site.
 
 # Requisitos
  
- 1 ­ Requisitos Funcionais:   
+ **1 ­ Requisitos Funcionais:  **
  
 - O sistema deve ter um arquivo .txt com histórico de logs;  
 
