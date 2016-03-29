@@ -50,11 +50,11 @@ pelos pais ou pelo gestor do site.
 
 - O sistema deve usar a biblioteca do passaport para o sistema de login.  
 
-- Tratamento de validação campos email e senha; A senha deve ser preenchida  com no mínimo 5 caracteres, caso um desses campos não for enviado para api  de login o sistema deve retornar mensagens de erros, especificando qual(is)  campo(s) não foram validados 
+	- Tratamento de validação campos email e senha; A senha deve ser preenchida  com no mínimo 5 caracteres, caso um desses campos não for enviado para api  de login o sistema deve retornar mensagens de erros, especificando qual(is)  campo(s) não foram validados 
  
- 	  - Formulário para /recuperar_senha com o campo de email. 
+	- Formulário para /recuperar_senha com o campo de email. 
  	 	  
- 	 	  Resposta de erro da api, caso o email não exista ou resposta de  sucesso, retornando “sua senha foi enviada para seu email”
+ 		- Resposta de erro da api, caso o email não exista ou resposta de  sucesso, retornando “sua senha foi enviada para seu email”
  
 - O usuário logado pode editar e atualizar os campos email e senha;
 
